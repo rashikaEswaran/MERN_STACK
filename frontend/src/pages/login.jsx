@@ -20,7 +20,7 @@ function App() {
   {
      e.preventDefault()
      console.log(formdata.username,formdata.password);
-     alert("Log in successfull");
+     alert("Log in successfull!");
      navigate("/dashboard",
       {state:formdata}
      )
