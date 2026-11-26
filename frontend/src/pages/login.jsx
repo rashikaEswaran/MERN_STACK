@@ -6,7 +6,7 @@ function App() {
   const[email,setEmail]=useState("");  
   const print=(e)=>
   {
-     e.preventDefault 
+     e.preventDefault()
      console.log(email,password);
   }
   return ( 
@@ -16,7 +16,7 @@ function App() {
          <input type="password" placeholder="password" value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
          <br/>
          <h4>Enter Email:</h4>
-         <input type="Email" placefolder="mail" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
+         <input type="Email" placeholder="mail" value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
         {/* <button type="submit" onClick={()=>{console.log(email,password)}}>Submit</button>
         */}
         <button type="submit">Submit</button>
