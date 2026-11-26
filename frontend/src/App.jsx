@@ -7,6 +7,7 @@ import Calender from "./pages/calender";
 import Client from "./pages/clients";
 import Dash from "./pages/dashboard";
 import Team from "./pages/team";
+import Register from "./pages/register";
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
         <Route path="/client" element={<Client/>}/>
         <Route path="/dashboard" element={<Dash/>}/>
         <Route path="/team" element={<Team/>}/>
+        <Route path="register" element={<Register/>}/>
 
 
         

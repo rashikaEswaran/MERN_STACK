@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-function App() {
+function Login() {
   
   //const[password,setPassword]=useState("");
   //const[email,setEmail]=useState("");
@@ -47,4 +47,4 @@ function App() {
      );
 }
 
-export default App;
+export default Login;
