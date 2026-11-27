@@ -14,7 +14,9 @@ function Register()
     {
        console.log(data)
        alert("Registered")
-       navigate("/")
+       navigate("/",
+        {state:data}
+       )
     }
     return(
         <>
