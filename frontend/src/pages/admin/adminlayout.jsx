@@ -8,8 +8,8 @@ function Adminlayout()
                  <h1 className="text-mist-50 text-center text-4xl">Admin Panel</h1>
             </div>
             <nav>
-                <Link to={"/admin/admindashboard"} className="rounded-3xl shadow-2xl shadow-black">Dashboard </Link>
-                <Link to={"/admin/userdetails"} className>User Details </Link>
+                <Link to={"/admin/admindashboard"} className="rounded-3xl shadow-2xl shadow-black bg-mauve-400">Dashboard </Link>
+                <Link to={"/admin/userdetails"} className="rounded-3xl bg-400">User Details </Link>
                 <Link to={"/admin/adminsettings"}>Settings</Link>
             </nav>
             <Outlet/>
