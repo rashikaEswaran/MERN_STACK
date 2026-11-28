@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
+import API from "../components/formSchema/api";
 
 function Dash()
 {
@@ -16,8 +17,19 @@ function Dash()
        
     }, [])
 
+    const checkendpoint=async ()=>{
+       const response=await API.get("/api/get");
+       console.log(response.data)
+    }
+
     return(
-        <div>{userdata.username}</div>
+        <div>
+           <div>{/*{userdata.username}*/} rash</div>
+           <button type="button" onClick={checkendpoint}>CLICK</button>
+
+
+        </div>
+       
     );
 }
 export default Dash;
