@@ -44,7 +44,7 @@ function Register()
             <input type="number" placeholder="Enter age" {...register("age")} className="w-full p-2 rounded-2xl outline-none border border-orange-300 focus:ring-2 focus:ring-orange-500"/>
             <p className="text-red-600 text-sm">{errors.age?.message}</p>
             </div>
-            <button type="submit" className="w-[200px] bg-orange-500 hover:bg-orange-600 text-black font-bold p-2 rounded-3xl mt-2 transition"> SUBMIT </button>
+            <button type="submit" className="w-200px bg-orange-500 hover:bg-orange-600 text-black font-bold p-2 rounded-3xl mt-2 transition"> SUBMIT </button>
         </form>
         </div>
 </div>
